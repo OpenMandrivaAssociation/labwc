@@ -82,6 +82,8 @@ session. Nor does it depend on any UI toolkits such as Qt or GTK.
 %doc NEWS.md
 %{_bindir}/%{name}
 %{_datadir}/wayland-sessions/%{name}.desktop
+%{_iconsdir}/hicolor/scalable/apps/labwc-symbolic.svg
+%{_iconsdir}/hicolor/scalable/apps/labwc.svg
 %{_docdir}/%{name}/*
 %{_mandir}/man1/*.1*
 %{_mandir}/man5/*.5*
