@@ -1,7 +1,7 @@
 %global forgeurl https://github.com/%{name}/%{name}
  
 Name:       labwc
-Version:    0.7.0
+Version:    0.7.1
 Release:    1
 Summary:    Openbox alternative for Wayland
 License:    GPL-2.0-only
@@ -9,7 +9,7 @@ URL:        https://github.com/labwc/labwc
 Source0:    https://github.com/labwc/labwc/archive/%{version}/%{name}-%{version}.tar.gz
  
 BuildRequires: meson
- 
+BuildRequires: gettext
 BuildRequires: pkgconfig(cairo)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libinput) >= 1.14
