@@ -1,7 +1,7 @@
 %global forgeurl https://github.com/%{name}/%{name}
  
 Name:       labwc
-Version:    0.7.3
+Version:    0.7.4
 Release:    1
 Summary:    Openbox alternative for Wayland
 License:    GPL-2.0-only
