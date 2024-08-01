@@ -20,7 +20,7 @@ BuildRequires: pkgconfig(pixman-1)
 BuildRequires: pkgconfig(scdoc)
 BuildRequires: pkgconfig(wayland-protocols)
 BuildRequires: pkgconfig(wayland-server)
-BuildRequires: pkgconfig(wlroots)
+BuildRequires: pkgconfig(wlroots) >= 0.16.2
 BuildRequires: pkgconfig(xcb)
 BuildRequires: pkgconfig(xkbcommon)
  
