@@ -14,6 +14,7 @@ BuildRequires: pkgconfig(cairo)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libinput) >= 1.14
 BuildRequires: pkgconfig(librsvg-2.0) >= 2.46
+BuildRequires: pkgconfig(libsfdo-basedir)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(pangocairo)
 BuildRequires: pkgconfig(pixman-1)
@@ -85,5 +86,6 @@ session. Nor does it depend on any UI toolkits such as Qt or GTK.
 %{_iconsdir}/hicolor/scalable/apps/labwc-symbolic.svg
 %{_iconsdir}/hicolor/scalable/apps/labwc.svg
 %{_docdir}/%{name}/*
+%{_datadir}/xdg-desktop-portal/labwc-portals.conf
 %{_mandir}/man1/*.1*
 %{_mandir}/man5/*.5*
