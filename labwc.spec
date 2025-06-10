@@ -2,7 +2,7 @@
  
 Name:       labwc
 Version:    0.8.4
-Release:    1
+Release:    2
 Summary:    Openbox alternative for Wayland
 License:    GPL-2.0-only
 URL:        https://github.com/labwc/labwc
