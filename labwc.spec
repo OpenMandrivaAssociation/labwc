@@ -83,6 +83,7 @@ session. Nor does it depend on any UI toolkits such as Qt or GTK.
 %license LICENSE
 %doc NEWS.md
 %{_bindir}/%{name}
+%{_bindir}/lab-sensible-terminal
 %{_datadir}/wayland-sessions/%{name}.desktop
 %{_iconsdir}/hicolor/scalable/apps/labwc-symbolic.svg
 %{_iconsdir}/hicolor/scalable/apps/labwc.svg
