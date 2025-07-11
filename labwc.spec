@@ -24,6 +24,7 @@ BuildRequires: pkgconfig(wayland-server)
 BuildRequires: pkgconfig(wlroots-0.19)
 BuildRequires: pkgconfig(xcb)
 BuildRequires: pkgconfig(xkbcommon)
+BuildRequires: pkgconfig(xwayland)
  
 Requires:   xwayland
  
