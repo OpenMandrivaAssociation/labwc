@@ -1,8 +1,8 @@
 %global forgeurl https://github.com/%{name}/%{name}
  
 Name:       labwc
-Version:    0.8.4
-Release:    2
+Version:    0.9.0
+Release:    1
 Summary:    Openbox alternative for Wayland
 License:    GPL-2.0-only
 URL:        https://github.com/labwc/labwc
@@ -21,7 +21,7 @@ BuildRequires: pkgconfig(pixman-1)
 BuildRequires: pkgconfig(scdoc)
 BuildRequires: pkgconfig(wayland-protocols)
 BuildRequires: pkgconfig(wayland-server)
-BuildRequires: pkgconfig(wlroots-0.18)
+BuildRequires: pkgconfig(wlroots-0.19)
 BuildRequires: pkgconfig(xcb)
 BuildRequires: pkgconfig(xkbcommon)
  
@@ -30,14 +30,14 @@ Requires:   xwayland
 # Upstream recommendations
 # https://github.com/labwc/labwc#6-integration
 Recommends: bemenu                      %dnl # Launchers
-Recommends: swaylock                    %dnl # Screen locker
+Recommends: hyprlock                    %dnl # Screen locker
 Suggests:   fuzzel wofi                 %dnl # Launchers
 Suggests:   grim                        %dnl # Screen-shooter
 Suggests:   kanshi wlr-randr            %dnl # Output managers
 Suggests:   swaybg                      %dnl # Background image
 Suggests:   lavalauncher waybar yambar  %dnl # Panel
  
-# Downstream usefull stuff which already packaged in Fedora
+# Downstream usefull stuff which already packaged in Mandriva
 Suggests:   wdisplays                   %dnl # GUI display configurator for wlroots compositors
   
  
