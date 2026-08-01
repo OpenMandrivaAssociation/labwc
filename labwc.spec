@@ -27,7 +27,8 @@ BuildRequires: pkgconfig(xkbcommon)
 BuildRequires: pkgconfig(xwayland)
  
 Requires:   xwayland
- 
+# Helpful configuration app
+Recommends: labwc-tweaks-gtk 
 # Upstream recommendations
 # https://github.com/labwc/labwc#6-integration
 Recommends: bemenu                      %dnl # Launchers
