@@ -91,5 +91,6 @@ session. Nor does it depend on any UI toolkits such as Qt or GTK.
 %{_iconsdir}/hicolor/scalable/apps/labwc.svg
 %{_docdir}/%{name}/*
 %{_datadir}/xdg-desktop-portal/labwc-portals.conf
+%{_userunitdir}/labwc-session.target
 %{_mandir}/man1/*.1*
 %{_mandir}/man5/*.5*
