@@ -94,3 +94,4 @@ session. Nor does it depend on any UI toolkits such as Qt or GTK.
 %{_userunitdir}/labwc-session.target
 %{_mandir}/man1/*.1*
 %{_mandir}/man5/*.5*
+%{_mandir}/man7/labwc-philosophy.7.*
